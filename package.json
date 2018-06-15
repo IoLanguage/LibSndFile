@@ -1,0 +1,15 @@
+{
+  "name":         "LibSndFile",
+  "version":      "0.1",
+  "description":  "An object for encoding and decoding audio files (principally WAV and AIFF) using the Libsndfile library.",
+  "author":       "Steve Dekorte",
+  "website":      "http://iolanguage.org",
+  "readme":       "README.md",
+  "protos":       ["LibSndFile"],
+  "dependencies": {
+    "libs":     ["sndfile"],
+    "headers":  ["sndfile.h"],
+    "protos":   [],
+    "packages": []
+  }
+}
